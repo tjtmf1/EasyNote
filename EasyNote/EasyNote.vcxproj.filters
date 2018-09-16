@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="녹음 / 재생 소스">
+      <UniqueIdentifier>{d376ab26-eb2a-4e8f-82ed-96151dfbeb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="녹음 / 재생 헤더">
+      <UniqueIdentifier>{9b23b79e-8379-46b1-ab1b-0cde8b00b85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="다이얼로그 소스 / 헤더">
+      <UniqueIdentifier>{c219e702-4503-43b6-b59c-178a14db704a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="팝업 소스 / 헤더">
+      <UniqueIdentifier>{e95c079d-4cc4-4021-8637-a29e25c11cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기타 소스 / 헤더">
+      <UniqueIdentifier>{d08f6b76-525d-41c8-895f-db2f3208852e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyNote.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyNoteDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyNoteView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceRecording.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="VoicePlaying.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceBase.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundOut.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundIn.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFile.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundBase.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="PtrFifo.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="errorprint.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>녹음 / 재생 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKey.h">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteArea.h">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteList.h">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordButton.h">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="BookmarkList.h">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowTable.h">
+      <Filter>팝업 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="AlterTable.h">
+      <Filter>팝업 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTable.h">
+      <Filter>팝업 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="BookMark.h">
+      <Filter>기타 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="EasySplitterWnd.h">
+      <Filter>기타 소스 / 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="RichSetting.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SetTitle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EasyNote.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyNoteDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyNoteView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="errorprint.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="PtrFifo.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundBase.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFile.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundIn.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundOut.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceBase.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="VoicePlaying.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceRecording.cpp">
+      <Filter>녹음 / 재생 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKey.cpp">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteArea.cpp">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordButton.cpp">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteList.cpp">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="BookmarkList.cpp">
+      <Filter>다이얼로그 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="AlterTable.cpp">
+      <Filter>팝업 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTable.cpp">
+      <Filter>팝업 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowTable.cpp">
+      <Filter>팝업 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="BookMark.cpp">
+      <Filter>기타 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="EasySplitterWnd.cpp">
+      <Filter>기타 소스 / 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="RichSetting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SetTitle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EasyNote.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EasyNote.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EasyNoteDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\EasyNote.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\pen.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
